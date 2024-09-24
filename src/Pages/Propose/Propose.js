@@ -1,7 +1,7 @@
 import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import FormGroupExample from "../../Components/Formularz/FormGroupExample/FormGroupExample";
+
 import Container from "react-bootstrap/Container";
 import CigarettePropose from "../../Components/Cigarette/CigarettePropose/CigarettePropose";
 

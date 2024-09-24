@@ -6,7 +6,7 @@ import CigaretteCalculator from "../CigaretteCalculator/CigaretteCalculator";
 import CigarettePropose from "../CigarettePropose/CigarettePropose";
 import CigaretteResults from '../CigaretteResults/CigaretteResults';
 function CigaretteForm() {
-    const [cigarette, setCigarette] = useState(null)
+    
     const [cigaretteCount, setCigaretteCount] = useState(0);
     const [cigarettePrice, setCigarettePrice] = useState(0);
     const [cigarettePackSize, setCigarettePackSize] = useState(0);
@@ -16,7 +16,7 @@ function CigaretteForm() {
     useEffect(() => {
         fetch("http://localhost:4000/cigarette")
             .then(fetchResp)
-            .then((data) => setCigarette(data))
+            
             .catch((err) => console.log(err));
     }, []);
 
