@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Propose = ({ cigarettePropose, smokedToday }) => {
+const Propose = ({ cigarettePropose, count }) => {
     let reaction;
 
-    if (cigarettePropose < smokedToday) {
+    if (cigarettePropose < count) {
         reaction = 'Like';
-    } else if (cigarettePropose > smokedToday) {
+    } else if (cigarettePropose > count) {
         reaction = "Don't Like";
     } else {
         reaction = 'minke :I';

@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 
-import FormGroupExample from "../../Components/Formularz/FormGroupExample/FormGroupExample";
+
 import CigaretteForm from '../../Components/Cigarette/CigaretteForm/CigaretteForm';
 
 
@@ -12,8 +12,7 @@ const Home = () => {
         <div className="container-fluid">
         <Container>
             
-            <FormGroupExample />
-            <CigaretteForm/>   
+            <CigaretteForm/> 
         </Container>
      </div>
     );
